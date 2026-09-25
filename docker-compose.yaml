@@ -16,7 +16,7 @@ services:
       - postgres_data:/var/lib/postgresql/data
 
   employee-app:
-    image: employee-app
+    image: aryan1712/employee-app:latest
     container_name: employee-app
 
     ports:
